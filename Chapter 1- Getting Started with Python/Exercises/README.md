@@ -33,10 +33,11 @@ print(sys.version_info)
 ## Exercise 3: Print date and Time :ballot_box_with_check:
 
 Write a Python program to display the current date and time.
-
-&nbsp;
-&nbsp;
-&nbsp;
+#This is the solution of exercise 3
+import datetime
+now=datetime.datetime.now()
+print("Current date and time: ")
+print (now.strftime("%Y-%m-%d %H:%M:%S"))
 ## Exercise 4: Strings Concatination :ballot_box_with_check:
 Write three strings in different variables and print the output as one string.
 &nbsp;
