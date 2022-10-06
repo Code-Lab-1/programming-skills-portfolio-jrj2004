@@ -17,17 +17,19 @@ Twinkle, twinkle, little star,
 		Like a diamond in the sky. 
 Twinkle, twinkle, little star, 
 	How I wonder what you are
-
 #This is solution of exercise 1
 print("Twinkle, twinkle, little star, \nHow I wonder what you are! \nUp above the world so high, \nLike a diamond in the sky. \nTwinkle, twinkle, little star, \nHow I wonder what you are")
+
 ## Exercise 2: Print the Version of Python :ballot_box_with_check:
 
  Write a Python program to get the Python version you are using.
+#This is the solution of exercise 2
+import sys
+print("Python version")
+print(sys.version)
+print("Version info.")
+print(sys.version_info)
 
-
-&nbsp;
-&nbsp;
-&nbsp;
 ## Exercise 3: Print date and Time :ballot_box_with_check:
 
 Write a Python program to display the current date and time.
