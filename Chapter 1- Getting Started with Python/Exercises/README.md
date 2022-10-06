@@ -18,9 +18,8 @@ Twinkle, twinkle, little star,
 Twinkle, twinkle, little star, 
 	How I wonder what you are
 
-&nbsp;
-&nbsp;
-&nbsp;
+#This is exercise 1
+print("Twinkle, twinkle, little star, \nHow I wonder what you are! \nUp above the world so high, \nLike a diamond in the sky. \nTwinkle, twinkle, little star, \nHow I wonder what you are")
 ## Exercise 2: Print the Version of Python :ballot_box_with_check:
 
  Write a Python program to get the Python version you are using.
