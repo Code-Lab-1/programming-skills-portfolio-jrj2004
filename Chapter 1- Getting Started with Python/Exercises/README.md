@@ -38,6 +38,7 @@ import datetime
 now=datetime.datetime.now()
 print("Current date and time: ")
 print (now.strftime("%Y-%m-%d %H:%M:%S"))
+
 ## Exercise 4: Strings Concatination :ballot_box_with_check:
 Write three strings in different variables and print the output as one string.
 &nbsp;
