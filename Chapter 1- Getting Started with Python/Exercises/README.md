@@ -44,7 +44,10 @@ Write three strings in different variables and print the output as one string.
 &nbsp;
 &nbsp;
 &nbsp;
-
+chocolate1= "Snickers"
+chocolate2= "Godiva"
+chocolate3= "Lindt"
+print(chocolate1,chocolate2,chocolate3)
 
 ## Exercise 5: Compute area of Circle :ballot_box_with_check:
 
