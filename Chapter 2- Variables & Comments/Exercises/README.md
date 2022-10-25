@@ -51,6 +51,10 @@ Then print the name using each of the three stripping functions, lstrip(), rstri
 &nbsp;
 &nbsp;
 &nbsp;
+name="\tMarilyn Manroe\n"
+print(name.lstrip())
+print(name.rstrip())
+print(name.strip())
 ## Exercise 4: Favorite Number :ballot_box_with_check:
 Use a variable to represent your favorite number. Then,using that variable, create a message that reveals your favorite number. Print
 that message.
