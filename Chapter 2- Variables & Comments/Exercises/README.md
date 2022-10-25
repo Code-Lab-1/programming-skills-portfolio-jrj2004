@@ -22,6 +22,7 @@ msg1="I love toblerone"
 print(msg1)
 msg2="It is delicious"
 print(msg2)
+
 ## Exercise 2: Variables :ballot_box_with_check:
 
 Find a quote from a famous person you admire. Print the quote and the name of its author. 
@@ -35,6 +36,7 @@ Albert Einstein once said, “A person who never made a mistake never tried anyt
 &nbsp;
 &nbsp;
 print("Albert Einstein once said, “A person who never made a mistake never\ntried anything new.")
+
 ## Exercise 3: Stripping Names :ballot_box_with_check:
 
 Tidy up the code to make it easier to understand
