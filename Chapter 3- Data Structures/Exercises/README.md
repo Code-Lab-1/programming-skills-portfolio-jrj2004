@@ -54,6 +54,8 @@ to print a series of statements about these items, such as “I would like to ow
 
 &nbsp;
 &nbsp;
+items=["Toyota","Ford","Honda Motorcycle","Lincoln"]
+print("I would like to own a ",items[2])
 
 ## Exercise 4: Guest List :ballot_box_with_check:
 
