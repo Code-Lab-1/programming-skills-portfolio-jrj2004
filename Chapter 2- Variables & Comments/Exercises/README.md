@@ -18,6 +18,10 @@ message.
 &nbsp;
 &nbsp;
 &nbsp;
+msg1="I love toblerone"
+print(msg1)
+msg2="It is delicious"
+print(msg2)
 ## Exercise 2: Variables :ballot_box_with_check:
 
 Find a quote from a famous person you admire. Print the quote and the name of its author. 
