@@ -18,6 +18,11 @@ Store the names of a few of your friends in a list called names. Print each pers
 
 &nbsp;
 &nbsp;
+my_favs=["Rachita","Sharvari","Vandana"]
+print(my_favs[0])
+print(my_favs[1])
+print(my_favs[2])
+
 
 ## Exercise 2: Greetings :ballot_box_with_check:
 
@@ -32,6 +37,14 @@ personalized with the person’s name.
 
 &nbsp;
 &nbsp;
+my_favs=["Rachita","Sharvari","Vandana"]
+msg1="Hello,"+ my_favs[0].title() +"!"
+print(msg1)
+msg2="Hello,"+ my_favs[1].title() +"!"
+print(msg2)
+msg3="Hello,"+ my_favs[2].title() +"!"
+print(msg3)
+
 
 ## Exercise 3: Your Own List :ballot_box_with_check:
 
