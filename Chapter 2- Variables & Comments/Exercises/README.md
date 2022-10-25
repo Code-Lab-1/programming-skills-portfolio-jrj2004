@@ -58,7 +58,8 @@ that message.
 &nbsp;
 &nbsp;
 &nbsp;
-
+fav_num=13
+print("My favorite number is", fav_num)
 ## Exercise 5: USB Shopper :ballot_box_with_check:
 
 A girl heads to a computer shop to buy some USB sticks. She loves USB sticks and wants as many as she can get for £50. They are £6 each.
