@@ -15,7 +15,11 @@ should have keys such as first_name, last_name, age, and city. Print each piece 
 
 &nbsp;
 &nbsp;
-
+person={'first_name':"Telma", 'last_name':"Binu", 'age':18, 'city': "Ajman"}
+print(person['first_name'])
+print(person['last_name'])
+print(person['age'])
+print(person['city'])
 ## Exercise 2: Glossary :ballot_box_with_check:
 
 A Python dictionary can be used to model an actual dictionary. However, to avoid confusion, let’s call it a glossary.
