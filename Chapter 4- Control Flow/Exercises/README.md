@@ -108,6 +108,19 @@ Write an if-elif-else chain that determines a person’s stage of life. Set a va
 
 &nbsp;
 &nbsp;
+age=18
+if age<2:
+    print("Your are a baby")
+elif age<4:
+    print("Your are a toddler")
+elif age<13:
+    print("Your are a kid")
+elif age<20:
+    print("Your are a teenager")
+elif age<65:
+    print("Your are an adult")
+else:
+    print("Your are an elder")
 
 ## Exercise 5: Favorite Fruit :ballot_box_with_check:
 
