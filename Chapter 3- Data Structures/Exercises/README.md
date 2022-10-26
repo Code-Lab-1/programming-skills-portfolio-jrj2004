@@ -129,6 +129,65 @@ You just found out that your new dinner table won’t arrive in time for the din
 •Use del to remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end of your program.
 &nbsp;
 &nbsp;
+#Invite the guests
+guests = ['Shawn Mendes','Demi Lavato', 'Camila Cabelo']
+
+name = guests[0].title()
+print(name + ", please come to dinner.")
+
+name = guests[1].title()
+print(name + ", please come to dinner.")
+
+name = guests[2].title()
+print(name + ", please come to dinner.")
+name = guests[1].title()
+print("\nSorry, " + name + " can't make it to dinner.")
+#Shawn Mendes can't make it! Let's invite Charlie Puth
+del(guests[1])
+guests.insert(1, 'Charlie Puth')
+#Print the invitations again
+name=guests[0].title()
+print("\n"+ name + ", please come to dinner")
+name=guests[1].title()
+print(name + ", please come to dinner.")
+name=guests[2].title()
+print(name + ", please come to dinner.")
+# We got a bigger table, so let's add some more people to the list.
+print("\nWe got a bigger table!")
+guests.insert(0,"Lilly Singh")
+guests.insert(2,"Ryan Reynolds")
+guests.append("Scarlet Johansson")
+name = guests[0].title()
+print(name + ", please come to dinner.")
+name = guests[1].title()
+print(name + ", please come to dinner.")
+name = guests[2].title()
+print(name + ", please come to dinner.")
+name = guests[3].title()
+print(name + ", please come to dinner.")
+name = guests[4].title()
+print(name + ", please come to dinner.")
+name = guests[5].title()
+print(name + ", please come to dinner.")
+#Oh no, the table won't arrive o time
+print("\nSorry, we can only invite two people to dinner")
+name=guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+name = guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+name = guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+name = guests.pop()
+print("Sorry, " + name.title() + " there's no room at the table.")
+#There should be two people left, let's invite them!
+name=guests[0].title()
+print(name + ", please come to dinner.")
+name=guests[1].title()
+#Empty out the list
+del(guests[0])
+del(guests[0])
+#Prove the list is gone
+print(guests)
 
 ## Exercise 7: Seeing the World :ballot_box_with_check:
 Think of at least five places in the world you’d like to visit.
