@@ -66,7 +66,30 @@ Turn your if-else chain from Exercise 5-4 into an if-elifelse chain.
 
 &nbsp;
 &nbsp;
-
+else block runs:
+alien_color="red"
+if alien_color =="green":
+    print("You have earned 5 points")
+elif alien_color =="yellow":
+    print("you have earned 10 points")
+else:
+    print("You have earned 15 points")
+elif block runs:
+alien_color="yellow"
+if alien_color =="green":
+    print("You have earned 5 points")
+elif alien_color =="yellow":
+    print("you have earned 10 points")
+else:
+    print("You have earned 15 points")
+if blocks runs:
+alien_color="green"
+if alien_color =="green":
+    print("You have earned 5 points")
+elif alien_color =="yellow":
+    print("you have earned 10 points")
+else:
+    print("You have earned 15 points") 
 ## Exercise 4: Stages of Life :ballot_box_with_check:
 
 Write an if-elif-else chain that determines a person’s stage of life. Set a value for the variable age, and then:
