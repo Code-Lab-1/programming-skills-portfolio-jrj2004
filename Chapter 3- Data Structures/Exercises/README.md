@@ -213,5 +213,27 @@ Think of at least five places in the world you’d like to visit.
 
 &nbsp;
 &nbsp;
-
+locations=["Paris","Korea","Kashmir","United Kingdoms","Switzerland"]
+print("Original Order: ")
+print(locations)
+print("\nAlphabetical Order: ")
+print(sorted(locations))
+print("Original Order: ")
+print(locations)
+print("\nReverse Alphabetical Order: ")
+print(sorted(locations, reverse=True))
+print("\nOriginal Order: ")
+print(locations)
+print("\nReversed: ")
+locations.reverse()
+print(locations)
+print("\nOriginal Order: ")
+locations.reverse()
+print(locations)
+print("\nAlphabetical")
+locations.sort()
+print(locations)
+print("\nReverse Alphabetical")
+locations.sort(reverse=True)
+print(locations)
 
