@@ -76,18 +76,6 @@ print(name + ", please come to dinner.")
 
 name = guests[2].title()
 print(name + ", please come to dinner.")
-name = guests[1].title()
-print("\nSorry, " + name + " can't make it to dinner.")
-#Shawn Mendes can't make it! Let's invite Charlie Puth
-del(guests[1])
-guests.insert(1, 'Charlie Puth')
-#Print the invitations again
-name=guests[0].title()
-print("\n"+ name + ", please come to dinner")
-name=guests[1].title()
-print(name + ", please come to dinner.")
-name=guests[2].title()
-print(name + ", please come to dinner.")
 
 ## Exercise 5: Change Guest List :ballot_box_with_check:
 
@@ -103,6 +91,30 @@ someone else to invite.
 
 &nbsp;
 &nbsp;
+#Invite the guests
+guests = ['Shawn Mendes','Demi Lavato', 'Camila Cabelo']
+
+name = guests[0].title()
+print(name + ", please come to dinner.")
+
+name = guests[1].title()
+print(name + ", please come to dinner.")
+
+name = guests[2].title()
+print(name + ", please come to dinner.")
+name = guests[1].title()
+print("\nSorry, " + name + " can't make it to dinner.")
+#Shawn Mendes can't make it! Let's invite Charlie Puth
+del(guests[1])
+guests.insert(1, 'Charlie Puth')
+#Print the invitations again
+name=guests[0].title()
+print("\n"+ name + ", please come to dinner")
+name=guests[1].title()
+print(name + ", please come to dinner.")
+name=guests[2].title()
+print(name + ", please come to dinner.")
+
 
 ## Exercise 6: Shrinking Guest List :ballot_box_with_check:
 
