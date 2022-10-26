@@ -19,7 +19,14 @@ Imagine an alien was just shot down in a game. Create a variable called alien_co
 
 &nbsp;
 &nbsp;
-
+Passing version:
+alien_color="green"
+if alien_color =="green":
+    print("You have earned 5 points")
+Failing version:
+alien_color="red"
+if alien_color =="green":
+    print("You have earned 5 points")
 ## Exercise 2: Alien Colors #2 :ballot_box_with_check:
 
 Choose a color for an alien as you did in Exercise 5-3, and write an if-else chain.
