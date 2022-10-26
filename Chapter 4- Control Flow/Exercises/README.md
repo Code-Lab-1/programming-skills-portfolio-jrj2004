@@ -39,7 +39,18 @@ Choose a color for an alien as you did in Exercise 5-3, and write an if-else cha
 
 &nbsp;
 &nbsp;
-
+if block runs:
+alien_color="green"
+if alien_color =="green":
+    print("You have earned 5 points")
+else:
+    print("You have earned 10 points")
+else block runs:
+alien_color="yellow"
+if alien_color =="green":
+    print("You have earned 5 points")
+else:
+    print("You have earned 10 points")
 ## Exercise 3: Alien Colors #3 :ballot_box_with_check:
 
 Turn your if-else chain from Exercise 5-4 into an if-elifelse chain.
