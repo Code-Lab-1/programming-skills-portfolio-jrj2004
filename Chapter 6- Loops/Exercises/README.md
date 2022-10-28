@@ -16,7 +16,14 @@ print a message saying you’ll add that topping to their pizza.
 
 &nbsp;
 &nbsp;
-
+prompt="\nwhat topping what you like on your pizza?"
+prompt+="\nEnter'quit' when you are finished"
+while True:
+    topping=input(prompt)
+    if topping!='quit':
+        print("I'll add", topping ,"to your pizza.")
+    else:
+        break
 ## Exercise 2: Movie Tickets: :ballot_box_with_check:
 
 A movie theater charges different ticket prices depending on a person’s age. If a person is under the age of 3, the ticket is free; if
