@@ -67,7 +67,15 @@ Make a dictionary containing three major rivers and the country each river runs 
 
 &nbsp;
 &nbsp;
-
+rivers={"Nile":"Egypt","Ganges":"India","River Thames":"England"}
+for river,country in rivers.items():
+    print("The" ,river.title(), "river runs through", country.title(), ".")
+print('\n')
+for river in rivers.keys():
+    print(river)
+print("\n")
+for country in rivers.values():
+    print(country)   
 ## Exercise 5: Pets :ballot_box_with_check:
 
 Make several dictionaries, where each dictionary represents a different pet. In each dictionary, include the kind of animal and the
