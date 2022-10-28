@@ -34,7 +34,19 @@ age, and then tell them the cost of their movie ticket
 
 &nbsp;
 &nbsp;
-
+prompt='How old are you?'
+prompt+="\nEnter'quit' when you are finished."
+while True:
+    age=input(prompt)
+    if age=='quit':
+        break
+    age=int(age)
+    if age<3:
+        print("You get in free")
+    elif age<13:
+        print("Your ticket is $10.")
+    else:
+        print("Your ticket is $15")
 ## Exercise 3: Infinity :ballot_box_with_check:
 
 Write a loop that never ends, and run it. (To end the loop, press ctrl-C or close the window displaying the output.)
