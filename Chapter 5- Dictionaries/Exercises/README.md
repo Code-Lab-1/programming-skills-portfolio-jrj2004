@@ -53,7 +53,8 @@ to your glossary.When you run your program again, these new words and meanings s
 
 &nbsp;
 &nbsp;
-
+for word, definition in glossary.items():
+    print(word+":\n"+definition+"\n")
 ## Exercise 4: Rivers :ballot_box_with_check:
 
 Make a dictionary containing three major rivers and the country each river runs through. One key-value pair might be 'nile': 'egypt'.
