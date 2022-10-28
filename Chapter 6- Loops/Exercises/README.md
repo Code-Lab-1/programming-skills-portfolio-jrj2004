@@ -75,6 +75,15 @@ move it to the list of finished sandwiches. After all the sandwiches have been m
 
 &nbsp;
 &nbsp;
+sandwich_orders=['chilly chicken','double cheese','beef','zinger']
+finished_sandwiches=[]
+while sandwich_orders:
+    current_sandwich=sandwich_orders.pop()
+    print("I am working", current_sandwich ,"sandwich")
+    finished_sandwiches.append(current_sandwich)
+print("\n")
+for sandwitch in finished_sandwiches:
+    print("I made a", sandwitch , "sandwich")
 
 ## Exercise 5: No Pastrami :ballot_box_with_check:
 
