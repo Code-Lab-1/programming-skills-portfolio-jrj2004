@@ -35,7 +35,11 @@ the word on one line and then print its meaning indented on a second line. Use t
 each word-meaning pair in your output.
 &nbsp;
 &nbsp;
-glossary={"Variable":"It is a named location used to store data in the memory.","Constants":"It is a type of variable whose value cannot be changed.","String Literal": "It is a sequence of characters surrounded by quotes."}
+glossary={"Variable":"It is a named location used to store data in the memory.",
+"Constants":"It is a type of variable whose value cannot be changed.",
+"String Literal": "It is a sequence of characters surrounded by quotes.",
+"List":"It is a data structure in Python that is a mutable, or changeable, ordered sequence of elements.",
+"Dictionary":"It is a collection of keys values, used to store data values like a map, which, unlike other data types which hold only a single value as an element."}
 print("Variable: ")
 print(glossary['Variable']+'\n')
 print("Constants: ")
