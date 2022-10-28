@@ -53,7 +53,18 @@ Write a loop that never ends, and run it. (To end the loop, press ctrl-C or clos
 
 &nbsp;
 &nbsp;
-
+while True:
+    age=input(prompt)
+    if age=='quit':
+        break
+    age=int(age)
+    if age<3:
+        print("You get in free")
+    elif age<13:
+        print("Your ticket is $10.")
+    else:
+        print("Your ticket is $15")
+        
 ## Exercise 4: Deli :ballot_box_with_check:
 
 Make a list called sandwich_orders and fill it with the names of various sandwiches. Then make an empty list called finished_sandwiches.
