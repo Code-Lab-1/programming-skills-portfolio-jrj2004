@@ -83,16 +83,16 @@ Make several dictionaries, where each dictionary represents a different pet. In 
 owner’s name. Store these dictionaries in a list called pets. Next, loop through your list and asyou do, print everything you know about 
 
 each pet
+
+
+
+&nbsp;
+&nbsp;
 Oreo={'species':'dog','color':'brown','Owner':'Reuben'}
 Margret={'species':'cat','color':'black','Owner':'Beth'}
 Zorro={'species':'parrot','color':'green','Owner':'Rachita'}
 pets=[Oreo,Margret,Zorro]
 for pet in pets:
     print(pet)
-
-
-
-&nbsp;
-&nbsp;
 
 
