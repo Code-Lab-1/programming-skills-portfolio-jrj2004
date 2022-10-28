@@ -45,7 +45,11 @@ to your glossary.When you run your program again, these new words and meanings s
 
 &nbsp;
 &nbsp;
-
+glossary={"Variable":"It is a named location used to store data in the memory.","Constants":"It is a type of variable whose value cannot be changed.","String Literal": "It is a sequence of characters surrounded by quotes."}
+print("Variable: ")
+print(glossary['Variable']+'\n')
+print("Constants: ")
+print(glossary['Constants'])
 ## Exercise 4: Rivers :ballot_box_with_check:
 
 Make a dictionary containing three major rivers and the country each river runs through. One key-value pair might be 'nile': 'egypt'.
