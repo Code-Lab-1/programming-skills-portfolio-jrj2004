@@ -68,5 +68,10 @@ Call your function for three different cities, at least one of which is not in t
 
 &nbsp;
 &nbsp;
-
+def describe_city(city,country='India'):
+    msg = city.title() + " is in " + country.title() + "."
+    print(msg)
+describe_city('Kerala')
+describe_city('New york','United States')
+describe_city('Karnataka')
 
