@@ -52,7 +52,12 @@ medium shirt with the default message, and a shirt of any size with a different 
 
 &nbsp;
 &nbsp;
-
+def make_shirt(size='large',message='I love python'):
+    print("\nI am going to make a", size ,"t-shirt")
+    print('It will say, "' + message + '"')
+make_shirt()
+make_shirt(size='medium')
+make_shirt('small','Programmers are great.')
 ## Exercise 5: Cities
 
 Write a function called describe_city() that accepts the name of a city and its country. The function should print a simple sentence, 
