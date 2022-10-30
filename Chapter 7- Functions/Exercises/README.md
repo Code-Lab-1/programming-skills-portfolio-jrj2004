@@ -39,7 +39,11 @@ arguments to make a shirt. Call the function a second time using keyword argumen
 
 &nbsp;
 &nbsp;
-
+def make_shirt(size,message):
+    print("\nI am going to make a", size ,"t-shirt")
+    print('It will say, "' + message + '"')
+make_shirt('large','I love cookies')
+make_shirt(message="Genius Minds", size='medium')
 ## Exercise 4:  Large Shirts :ballot_box_with_check:
 
 Modify the make_shirt() function so that shirts are large by default with a message that reads I love Python. Make a large shirt and a
