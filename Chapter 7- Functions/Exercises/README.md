@@ -15,7 +15,10 @@ function, and make sure the message displays correctly.
 
 &nbsp;
 &nbsp;
-
+def display_message():
+    msg="i am learning to how to store a code in a function"
+    print(msg)
+display_message()
 ## Exercise 2: Favorite Book :ballot_box_with_check:
 Write a function called favorite_book() that accepts one parameter, title. The function should print a message, such as One of my
 
