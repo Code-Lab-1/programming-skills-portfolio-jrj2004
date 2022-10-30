@@ -26,7 +26,9 @@ favorite books is Alice in Wonderland. Call the function, making sure to include
 
 &nbsp;
 &nbsp;
-
+def favorite_book(title):
+    print(title,"is one of my favorite books")
+favorite_book('It ends with us')
 ## Exercise 3: T-Shirt  :ballot_box_with_check:
 
 Write a function called make_shirt() that accepts a size and the text of a message that should be printed on the shirt. The function 
