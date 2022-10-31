@@ -75,3 +75,9 @@ You will to use the arithmetic operators to complete this exercise.
 &nbsp;
 &nbsp;
 &nbsp;
+price_of_per_usb= 6
+budget= 50
+buy=budget//price_of_per_usb
+remaining_left=budget%price_of_per_usb
+print("she can buy",buy,"usbs")
+print("she has",remaining_left,"remaining left")
