@@ -1,0 +1,8 @@
+name="Julisha Rose Joby"
+Age=18
+contact_name=12
+email="julishajoby@gmail.com"
+Department="Creative Computing"
+Level="Bachelors"
+print(name,Age,email)
+print(name,Age,email,contact_name,Department,Level)
