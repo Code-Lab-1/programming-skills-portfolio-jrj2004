@@ -1,0 +1,19 @@
+def codelab_1(a,b,c,d):
+    avg=a+b+c+d/4
+    percentage=a/(a+b+c+d)*100
+    print("The average of a,b,c,d is",avg)
+    print("The perentage of a is",percentage)
+codelab_1(12,13,14,15)
+
+
+def julicode_lab():
+    no=5
+    for count in range(1,11):
+        print(no,"x",count,"=",count*no)
+julicode_lab()
+
+
+def coding():
+    students=["Sharvari","Rachita","Vandana","Abiya"]
+    print(students)
+coding()
