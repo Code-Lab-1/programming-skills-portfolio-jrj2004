@@ -4,6 +4,7 @@ contact_no=int(input('enter contact no:'))
 email=input('enter mail:')
 department=input('enter department:')
 level=input('enter level:')
+print(name,age,level)
 
 
 a=int(3.3)
