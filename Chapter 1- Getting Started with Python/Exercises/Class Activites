@@ -6,3 +6,24 @@ Department="Creative Computing"
 Level="Bachelors"
 print(name,Age,email)
 print(name,Age,email,contact_name,Department,Level)
+
+
+name=input("Enter your name=")
+sci=int(input("Enter the marks="))
+math=int(input("Enter the marks="))
+eng=int(input("Enter the marks="))
+sst=int(input("Enter the marks="))
+french=int(input("Enter the marks="))
+marks_obtained=sci+math+eng+sst+french
+print("Total marks obtained by the student: ",marks_obtained)
+total_marks=500
+average=marks_obtained/5
+percentage=marks_obtained/total_marks*100
+print("Average marks of the student: ",average)
+print("Precentage of the student: ",percentage)
+
+
+am_invt=100
+yr=int(input('ENTER THE NUMBER OF YEARS:'))
+total=am_invt*1.1**yr
+print(total)
