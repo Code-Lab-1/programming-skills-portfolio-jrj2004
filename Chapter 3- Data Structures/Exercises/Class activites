@@ -1,0 +1,9 @@
+names=["Sharvari","Rachita","Trisha","Akaash","Reuben","Abiya","Nidha","Alan Jacob","Aman","Vandana"]
+print(names)
+
+
+stu={"name":"Maria",'age':18, 'gender':'female','class':'CC','email':'maria@gmail.com'}
+print(stu)
+
+fruits = ("apple", "banana", "cherry")
+print(fruits)
