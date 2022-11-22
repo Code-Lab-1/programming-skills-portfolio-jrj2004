@@ -14,3 +14,21 @@ stu.keys()
 len(stu)
 stu.pop('name')
 print(stu)
+
+stu={'age': 18, 'gender': 'female', 'class': 'CC', 'BG': 'a+'}
+print(type(stu))
+stu['BG'] = "o+"
+print(stu)
+
+
+myfam = {
+  "child1" : {
+    "name" : "Joshwin",
+    "year" : "1999"
+  },
+  "child2" : {
+    "name" : "Julisha",
+    "year" : 2004
+  }
+}
+print(myfam)
