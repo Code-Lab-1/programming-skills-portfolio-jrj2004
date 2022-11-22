@@ -26,3 +26,17 @@ if a+b>c or a+c>b or b+c>a:
     print('scalene')
 else:
   print('not a triangle')
+
+
+features = ["red", "big", "tasty"]
+fruits = ["strawberry", "mango", "cherry"]
+for x in features:
+  for y in fruits:
+    print(x, y)
+
+
+for x in range(7):
+  if x == 4: break
+  print(x)
+else:
+  print("Finally over!")
