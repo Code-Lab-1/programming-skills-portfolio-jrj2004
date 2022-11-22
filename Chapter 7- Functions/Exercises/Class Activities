@@ -17,3 +17,23 @@ def coding():
     students=["Sharvari","Rachita","Vandana","Abiya"]
     print(students)
 coding()
+
+
+def add():
+  a=int(input('Enter the no: '))
+  b=int(input('Enter the no: '))
+  print(a)
+  print(b)
+  print('Sum:')
+  return a+b
+add()
+
+
+def cal():
+  a=int(input('enter :'))
+  b=int(input('enter :'))
+  c=int(input('enter :'))
+  d=int(input('enter :'))
+  print('Avg : ',(a+b+c+d)/4)
+  print('Percent of first no. : ',a/(a+b+c+d)*100)
+cal()
