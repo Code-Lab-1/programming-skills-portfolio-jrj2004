@@ -27,3 +27,21 @@ am_invt=100
 yr=int(input('ENTER THE NUMBER OF YEARS:'))
 total=am_invt*1.1**yr
 print(total)
+
+
+x=6  
+y = 2.8 
+z = 1j  
+print(type(x))
+print(type(y))
+print(type(z))
+
+
+x = 5+6j
+y = 10j
+z = -9j
+
+print(type(x))
+print(type(y))
+print(type(z))
+
